@@ -4,8 +4,8 @@ function copyToClipboard(value, callback) {
     document.body.appendChild(textarea);
     textarea.select();
     document.execCommand("Copy");
+    textarea.parentNode.removeChild(textarea);
     if (typeof callback === "function") {
         callback(value);
     }
-    textarea.parentNode.removeChild(textarea);
 }
