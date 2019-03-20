@@ -1,0 +1,5 @@
+# jekyll cache files => don't push
+_site
+.sass-cache
+
+Gemfile

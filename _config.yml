@@ -1,1 +1,17 @@
+# 预设变量
+title: 诗酒趁年华 # 站点标题
+description: 赵自为 # 简短介绍
+author: zhaoziwei # 文章署名
+
+
+# 主题 https://github.com/pages-themes/hacker/
 theme: jekyll-theme-hacker
+
+# permalink 博客文章的永久链接
+permalink: /blog/:year:month/:day/:title.html
+
+# "true" or "false" to indicate whether to provide a download URL
+show_downloads: false
+
+# Your Google Analytics tracking ID
+google_analytics: 
